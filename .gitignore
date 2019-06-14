@@ -1,0 +1,27 @@
+
+# Eclipse configuration
+.settings/
+.classpath
+.project
+.externalToolBuilders/
+.metadata/
+
+
+# IntelliJ configuration
+.idea
+*.iml
+
+# Visual studio code configuration
+.vscode
+
+# Operating System cruft
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Maven cruft
+*.versionsBackup
