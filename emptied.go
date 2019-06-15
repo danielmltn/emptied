@@ -4,7 +4,6 @@ import (
 	"reflect"
 )
 
-
 /*
 IsEmpty will check if a value is set to default value
 provided by the Go language. If so it will return

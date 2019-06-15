@@ -199,7 +199,7 @@ func TestIsEmptyHandlesDefaultCaseAsFalse(t *testing.T) {
 
 func TestIsEmptyHandlesPointerToStruct(t *testing.T) {
 
-	defaultValue := IsEmpty(&struct {}{})
+	defaultValue := IsEmpty(&struct{}{})
 	if defaultValue {
 		t.Error("This should have handled non-string and non-ints as a default value returned. ")
 	}
